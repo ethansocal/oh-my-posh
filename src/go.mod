@@ -14,7 +14,7 @@ require (
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/gookit/color v1.5.2
 	github.com/gookit/config/v2 v2.1.6
-	github.com/gookit/goutil v0.5.14 // indirect
+	github.com/gookit/goutil v0.6.0 // indirect
 	github.com/huandu/xstrings v1.3.2 // indirect
 	github.com/mitchellh/copystructure v1.2.0 // indirect
 	github.com/mitchellh/mapstructure v1.5.0
@@ -23,10 +23,10 @@ require (
 	github.com/stretchr/objx v0.5.0 // indirect
 	github.com/stretchr/testify v1.8.0
 	github.com/wayneashleyberry/terminal-dimensions v1.1.0
-	golang.org/x/crypto v0.0.0-20221012134737-56aed061732a // indirect
-	golang.org/x/image v0.0.0-20220902085622-e7cb96979f69
-	golang.org/x/sys v0.0.0-20221013171732-95e765b1cc43
-	golang.org/x/text v0.3.8
+	golang.org/x/crypto v0.31.0 // indirect
+	golang.org/x/image v0.18.0
+	golang.org/x/sys v0.28.0
+	golang.org/x/text v0.21.0
 	gopkg.in/ini.v1 v1.67.0
 )
 
@@ -38,7 +38,7 @@ require (
 	github.com/hashicorp/hcl/v2 v2.14.1
 	github.com/mattn/go-runewidth v0.0.14
 	github.com/spf13/cobra v1.6.0
-	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4
+	golang.org/x/mod v0.17.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
@@ -86,7 +86,8 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/yusufpapurcu/wmi v1.2.2 // indirect
 	github.com/zclconf/go-cty v1.11.0 // indirect
-	golang.org/x/term v0.0.0-20220919170432-7a66f970e087 // indirect
+	golang.org/x/sync v0.10.0 // indirect
+	golang.org/x/term v0.27.0 // indirect
 )
 
 replace github.com/atotto/clipboard v0.1.4 => github.com/jandedobbeleer/clipboard v0.1.4-1
